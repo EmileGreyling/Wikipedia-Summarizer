@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "Wikipedia App",
+    "slug": "wikipedia-app",
+    "icon": "./assets/images/icon.png",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "spalsh": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E1E1E"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#1E1E1E"
+      },
+      "package": "com.codinghacks.wikipediaapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a5523bc6-b6a0-4de1-8e6c-1e2257c5e932"
+      }
+    }
+  }
+}
